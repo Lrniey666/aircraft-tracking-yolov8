@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Aircraft Tracking YOLOv8</title>
+  <desc id="desc">Five-class aircraft detector with Ultralytics tracking, 2023 coursework.</desc>
+  <style>
+    .bg { fill: #f3f6fb; }
+    .frame { fill: none; stroke: #d5dde8; stroke-width: 1; }
+    .ink { fill: #0e1624; }
+    .title { fill: #0e1624; font: 700 52px "Segoe UI", "Helvetica Neue", sans-serif; letter-spacing: 0.2px; }
+    .tag { fill: #5b6b82; font: 400 20px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .rule { stroke: #e8a317; stroke-width: 4; stroke-linecap: round; }
+    .chip { fill: #ffffff; stroke: #d5dde8; stroke-width: 1; }
+    .chip-text { fill: #0e1624; font: 600 16px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .sky { fill: #3d8bfd; }
+    .amber { fill: #e8a317; }
+    .navy { fill: #0e1624; }
+    .box { fill: none; stroke: #e8a317; stroke-width: 3; }
+    .trail { fill: none; stroke: #3d8bfd; stroke-width: 3; stroke-linecap: round; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #101826; }
+      .frame { stroke: #2a3648; }
+      .title, .chip-text, .ink { fill: #e8eef7; }
+      .tag { fill: #8a97ab; }
+      .chip { fill: #182234; stroke: #2a3648; }
+    }
+  </style>
+  <rect class="bg" width="1200" height="360" rx="28"/>
+  <rect class="frame" x="0.5" y="0.5" width="1199" height="359" rx="28"/>
+
+  <g transform="translate(64,92)">
+    <path class="trail" d="M8 118 C 40 90, 70 70, 110 62"/>
+    <rect class="box" x="78" y="28" width="150" height="72" rx="4"/>
+    <path class="navy" d="M96 64 h38 l18-14 h28 l-10 14 h36 l14 8 h-48 l8 16 h-16 l-10-16 h-22 l-12 18 h-14 z"/>
+    <circle class="amber" cx="228" cy="36" r="5"/>
+    <text class="tag" x="236" y="42">id 3</text>
+  </g>
+
+  <text class="title" x="420" y="142">Aircraft Tracking</text>
+  <text class="tag" x="420" y="180">YOLOv8 detect + track · five classes</text>
+  <line class="rule" x1="420" y1="200" x2="496" y2="200"/>
+
+  <g>
+    <rect class="chip" x="420" y="232" width="132" height="40" rx="10"/>
+    <text class="chip-text" x="486" y="258" text-anchor="middle">YOLOv8s</text>
+    <rect class="chip" x="564" y="232" width="150" height="40" rx="10"/>
+    <text class="chip-text" x="639" y="258" text-anchor="middle">ByteTrack</text>
+    <rect class="chip" x="726" y="232" width="150" height="40" rx="10"/>
+    <text class="chip-text" x="801" y="258" text-anchor="middle">RTX 3070</text>
+    <rect class="chip" x="888" y="232" width="200" height="40" rx="10"/>
+    <text class="chip-text" x="988" y="258" text-anchor="middle">2023 coursework</text>
+  </g>
+</svg>

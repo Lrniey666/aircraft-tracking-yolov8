@@ -1,0 +1,15 @@
+# Five-class aircraft detector. Point `path` at a folder that contains
+# images/{train,val} and labels/{train,val} in YOLO format.
+# Raw 2023 frames stay in original-data/ and are not part of this tree.
+
+path: .
+train: images/train
+val: images/val
+
+nc: 5
+names:
+  0: civil_aircraft
+  1: fighter
+  2: bomber
+  3: other_military_aircraft
+  4: missile

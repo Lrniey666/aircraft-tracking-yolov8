@@ -1,0 +1,8 @@
+# Core training / tracking (2023 runs used ultralytics 8.0.218 + torch 2.1.1)
+ultralytics>=8.0.218
+opencv-python>=4.8.0
+
+# SIDCGT screen collector
+Pillow>=10.0.0
+pyautogui>=0.9.54
+keyboard>=0.13.5
